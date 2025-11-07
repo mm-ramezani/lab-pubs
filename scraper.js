@@ -8,17 +8,16 @@ puppeteer.use(StealthPlugin());
 const SCHOLAR_ID = "bc6CiFkAAAAJ"; // your ID
 const PROFILE_URL = `https://scholar.google.com/citations?hl=en&user=${SCHOLAR_ID}&view_op=list_works&sortby=pubdate`;
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 function clean(t) {
-  return (t || "")
-    .replace(/\s+/g, " ")
-    .replace(/\u00A0/g, " ")
-    .trim();
+  return (t || "").replace(/\s+/g, " ").replace(/\u00A0/g, " ").trim();
 }
 
 (async () => {
   const browser = await puppeteer.launch({
     headless: "new",
-    args: ["--no-sandbox","--disable-setuid-sandbox"]
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
   const page = await browser.newPage();
   await page.setUserAgent(
@@ -29,24 +28,29 @@ function clean(t) {
 
   // Accept consent if shown
   try {
-    await page.waitForSelector('form[action*="consent"] button, #introAgreeButton', { timeout: 3000 });
+    await page.waitForSelector(
+      'form[action*="consent"] button, #introAgreeButton',
+      { timeout: 3000 }
+    );
     await page.click('form[action*="consent"] button, #introAgreeButton');
     await page.waitForNavigation({ waitUntil: "domcontentloaded", timeout: 10000 });
   } catch {}
 
-  // Load all publications (click "Show more" until disabled)
+  // Load all publications (click "Show more" until disabled or missing)
   while (true) {
     const moreSel = "#gsc_bpf_more";
-    const enabled = await page.$eval(moreSel, btn => !btn.disabled).catch(() => false);
+    const exists = await page.$(moreSel);
+    if (!exists) break;
+    const enabled = await page.$eval(moreSel, (btn) => !btn.disabled).catch(() => false);
     if (!enabled) break;
     await page.click(moreSel);
-    await page.waitForTimeout(1200);
+    await sleep(1200); // <-- replaced waitForTimeout
   }
 
   // Scrape rows
-  const items = await page.$$eval("tr.gsc_a_tr", rows => {
-    const clean = s => (s || "").replace(/\s+/g, " ").replace(/\u00A0/g, " ").trim();
-    return rows.map(r => {
+  const items = await page.$$eval("tr.gsc_a_tr", (rows) => {
+    const clean = (s) => (s || "").replace(/\s+/g, " ").replace(/\u00A0/g, " ").trim();
+    return rows.map((r) => {
       const a = r.querySelector("a.gsc_a_at");
       const title = a ? clean(a.textContent) : "";
       const url = a ? new URL(a.getAttribute("href"), "https://scholar.google.com").toString() : "";
