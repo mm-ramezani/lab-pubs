@@ -9,43 +9,55 @@ const SCHOLAR_ID = "bc6CiFkAAAAJ"; // your ID
 const PROFILE_URL = `https://scholar.google.com/citations?hl=en&user=${SCHOLAR_ID}&view_op=list_works&sortby=pubdate`;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-function clean(t) {
-  return (t || "").replace(/\s+/g, " ").replace(/\u00A0/g, " ").trim();
-}
+const clean = (t) => (t || "").replace(/\s+/g, " ").replace(/\u00A0/g, " ").trim();
 
 (async () => {
   const browser = await puppeteer.launch({
     headless: "new",
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--lang=en-US,en"
+    ],
   });
   const page = await browser.newPage();
+
   await page.setUserAgent(
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
   );
+  await page.setExtraHTTPHeaders({ "Accept-Language": "en-US,en;q=0.9" });
 
-  await page.goto(PROFILE_URL, { waitUntil: "domcontentloaded" });
+  // Go to profile and wait until network settles
+  await page.goto(PROFILE_URL, { waitUntil: "networkidle2", timeout: 60000 });
 
   // Accept consent if shown
   try {
-    await page.waitForSelector(
-      'form[action*="consent"] button, #introAgreeButton',
-      { timeout: 3000 }
-    );
+    await page.waitForSelector('form[action*="consent"] button, #introAgreeButton', { timeout: 3000 });
     await page.click('form[action*="consent"] button, #introAgreeButton');
-    await page.waitForNavigation({ waitUntil: "domcontentloaded", timeout: 10000 });
+    await page.waitForNavigation({ waitUntil: "networkidle2", timeout: 15000 });
   } catch {}
 
-  // Load all publications (click "Show more" until disabled or missing)
+  // Ensure the publications table exists
+  await page.waitForSelector("#gsc_a_b", { timeout: 15000 }).catch(() => {});
+
+  // Load all rows by clicking "Show more" repeatedly, with reliable waits
   while (true) {
     const moreSel = "#gsc_bpf_more";
-    const exists = await page.$(moreSel);
-    if (!exists) break;
+    const hasBtn = await page.$(moreSel);
+    if (!hasBtn) break;
     const enabled = await page.$eval(moreSel, (btn) => !btn.disabled).catch(() => false);
     if (!enabled) break;
     await page.click(moreSel);
-    await sleep(1200); // <-- replaced waitForTimeout
+    // wait for new rows to be added
+    const before = await page.$$eval("tr.gsc_a_tr", (r) => r.length).catch(() => 0);
+    await sleep(1200);
+    const after = await page.$$eval("tr.gsc_a_tr", (r) => r.length).catch(() => 0);
+    if (after <= before) break; // nothing new appeared
   }
+
+  // As a final guard, wait for at least one row
+  await page.waitForSelector("tr.gsc_a_tr", { timeout: 15000 }).catch(() => {});
 
   // Scrape rows
   const items = await page.$$eval("tr.gsc_a_tr", (rows) => {
@@ -55,9 +67,9 @@ function clean(t) {
       const title = a ? clean(a.textContent) : "";
       const url = a ? new URL(a.getAttribute("href"), "https://scholar.google.com").toString() : "";
 
-      const metaBlocks = r.querySelectorAll(".gsc_a_t .gs_gray");
-      const authors = metaBlocks[0] ? clean(metaBlocks[0].textContent) : "";
-      let venue = metaBlocks[1] ? clean(metaBlocks[1].textContent) : "";
+      const gray = r.querySelectorAll(".gsc_a_t .gs_gray");
+      const authors = gray[0] ? clean(gray[0].textContent) : "";
+      let venue = gray[1] ? clean(gray[1].textContent) : "";
 
       let year = "";
       const y = r.querySelector(".gsc_a_y span");
@@ -74,7 +86,6 @@ function clean(t) {
 
   await browser.close();
 
-  // Write JSON to docs/pubs.json (served by GitHub Pages)
   const outDir = path.join(process.cwd(), "docs");
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
   fs.writeFileSync(
