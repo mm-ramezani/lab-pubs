@@ -1,19 +1,19 @@
 name: scrape-scholar
 on:
   schedule:
-    - cron: "12 3 * * *"   # daily at 03:12 UTC
+    - cron: "0 4 * * 1"
   workflow_dispatch: {}
 permissions:
-  contents: write   # allow the job to commit pubs.json
+  contents: write
+
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Windows, X64]   # <— IMPORTANT
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      # use npm install (not npm ci) since we don't have a lockfile
       - run: npm install
       - run: node scraper.js
       - name: Commit & push
