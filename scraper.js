@@ -5,13 +5,16 @@ import StealthPlugin from "puppeteer-extra-plugin-stealth";
 
 puppeteer.use(StealthPlugin());
 
+// YOUR Scholar ID
 const SCHOLAR_ID = "bc6CiFkAAAAJ";
 const PROFILE_URL = `https://scholar.google.com/citations?hl=en&user=${SCHOLAR_ID}&view_op=list_works&sortby=pubdate`;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const clean = (t) => (t || "").replace(/\s+/g, " ").replace(/\u00A0/g, " ").trim();
 
-async function ensureDir(p) { if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true }); }
+async function ensureDir(p) {
+  if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true });
+}
 
 (async () => {
   const outDir = path.join(process.cwd(), "docs");
@@ -38,42 +41,42 @@ async function ensureDir(p) { if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive
 
     await page.goto(PROFILE_URL, { waitUntil: "networkidle2", timeout: 60000 });
 
-    // Consent screen (if any)
+    // Consent, if shown
     try {
       await page.waitForSelector('form[action*="consent"] button, #introAgreeButton', { timeout: 3000 });
       await page.click('form[action*="consent"] button, #introAgreeButton');
       await page.waitForNavigation({ waitUntil: "networkidle2", timeout: 15000 });
     } catch {}
 
-    // If Scholar shows an unusual-traffic/captcha page, bail early
+    // If blocked/captcha, keep previous JSON and save debug
     const html0 = await page.content();
     const blocked = /unusual\s+traffic|captcha|verify|sorry/i.test(html0);
     if (blocked) {
       await page.screenshot({ path: path.join(outDir, "blocked.png") });
       fs.writeFileSync(path.join(outDir, "blocked.html"), html0);
       console.log("Blocked by Scholar (unusual traffic). Kept previous pubs.json.");
-      process.exit(0); // do not overwrite good file
+      process.exit(0);
     }
 
-    // Wait for publications table and rows
+    // Wait for table and some rows
     await page.waitForSelector("#gsc_a_b", { timeout: 20000 }).catch(() => {});
     await page.waitForSelector("tr.gsc_a_tr", { timeout: 20000 }).catch(() => {});
 
-    // Click "Show more" until no new rows appear, with backoff
+    // Click "Show more" until no growth
     for (let tries = 0; tries < 30; tries++) {
-      const haveBtn = await page.$("#gsc_bpf_more");
-      if (!haveBtn) break;
-      const enabled = await page.$eval("#gsc_bpf_more", (b) => !b.disabled).catch(() => false);
+      const btn = await page.$("#gsc_bpf_more");
+      if (!btn) break;
+      const enabled = await page.$eval("#gsc_bpf_more", b => !b.disabled).catch(() => false);
       if (!enabled) break;
-      const before = await page.$$eval("tr.gsc_a_tr", (r) => r.length).catch(() => 0);
-      await page.click("#gsc_bpf_more");
+      const before = await page.$$eval("tr.gsc_a_tr", r => r.length).catch(() => 0);
+      await btn.click();
       await sleep(1200 + Math.floor(Math.random() * 600));
-      const after = await page.$$eval("tr.gsc_a_tr", (r) => r.length).catch(() => 0);
+      const after = await page.$$eval("tr.gsc_a_tr", r => r.length).catch(() => 0);
       if (after <= before) break;
     }
 
-    // Final guard: if still no rows, save HTML and exit without overwrite
-    const rowCount = await page.$$eval("tr.gsc_a_tr", (r) => r.length).catch(() => 0);
+    // Final guard: if no rows, save debug and keep previous JSON
+    const rowCount = await page.$$eval("tr.gsc_a_tr", r => r.length).catch(() => 0);
     if (!rowCount) {
       const html = await page.content();
       fs.writeFileSync(path.join(outDir, "last.html"), html);
@@ -89,9 +92,11 @@ async function ensureDir(p) { if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive
         const a = r.querySelector("a.gsc_a_at");
         const title = a ? clean(a.textContent) : "";
         const url = a ? new URL(a.getAttribute("href"), "https://scholar.google.com").toString() : "";
+
         const gray = r.querySelectorAll(".gsc_a_t .gs_gray");
         const authors = gray[0] ? clean(gray[0].textContent) : "";
         let venue = gray[1] ? clean(gray[1].textContent) : "";
+
         let year = "";
         const y = r.querySelector(".gsc_a_y span");
         if (y) year = clean(y.textContent);
@@ -104,7 +109,6 @@ async function ensureDir(p) { if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive
       });
     });
 
-    // Only overwrite pubs.json on success with data
     if (items.length > 0) {
       const payload = { updated: new Date().toISOString(), count: items.length, items };
       fs.writeFileSync(path.join(outDir, "pubs.json"), JSON.stringify(payload, null, 2));
@@ -113,12 +117,11 @@ async function ensureDir(p) { if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive
       console.log("Parser returned 0 items; kept previous pubs.json.");
     }
   } catch (e) {
-    // Save debug and keep previous file
     try {
-      const page = (await browser.pages())[0];
-      if (page) {
-        fs.writeFileSync(path.join(process.cwd(), "docs", "error.html"), await page.content());
-        await page.screenshot({ path: path.join(process.cwd(), "docs", "error.png"), fullPage: true });
+      const pages = await browser.pages();
+      if (pages[0]) {
+        fs.writeFileSync(path.join(process.cwd(), "docs", "error.html"), await pages[0].content());
+        await pages[0].screenshot({ path: path.join(process.cwd(), "docs", "error.png"), fullPage: true });
       }
     } catch {}
     console.error("Scrape error:", e);
