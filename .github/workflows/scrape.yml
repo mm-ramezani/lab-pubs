@@ -1,25 +1,35 @@
 name: scrape-scholar
+
 on:
   schedule:
-    - cron: "0 4 * * 1"   # Mondays 04:00 UTC
-  workflow_dispatch: {}
+    - cron: "0 4 * * 1"     # Mondays 04:00 UTC (gentle cadence)
+  workflow_dispatch: {}      # allow manual runs
+
 permissions:
-  contents: write
+  contents: write            # needed to commit docs/pubs.json
 
 jobs:
   build:
-    runs-on: [self-hosted, Windows, X64]   # make sure these labels match your runner
+    # Make sure these labels match your runner (check Settings → Actions → Runners)
+    runs-on: [self-hosted, Windows, X64]
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: npm install
-        shell: pwsh
-      - run: node scraper.js
-        shell: pwsh
-      - name: Commit & push
-        shell: pwsh
+
+      - name: Install deps
+        run: npm install
+        shell: powershell
+
+      - name: Scrape Google Scholar
+        run: node scraper.js
+        shell: powershell
+
+      - name: Commit & push JSON (and any debug files)
+        shell: powershell
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
