@@ -7,7 +7,7 @@ const OUT_FILE = path.join(OUT_DIR, "pubs.json");
 
 // ==== CONFIG ====
 // Prefer ORCID if you have it:
-const ORCID = ""; // e.g., "0000-0002-1825-0097"  <-- put here if you have one
+const ORCID = "0000-0002-3229-749X"; // e.g., "0000-0002-1825-0097"  <-- put here if you have one
 // OR fallback to a name search (use quotes; add institution to reduce ambiguity):
 const AUTHOR_QUERY = '"Karlye Wong" University of Toronto'; // change to your author/lab PI
 
