@@ -9,7 +9,7 @@ const OUT_FILE = path.join(OUT_DIR, "pubs.json");
 // Prefer ORCID if you have it:
 const ORCID = "0000-0002-3229-749X"; // e.g., "0000-0002-1825-0097"  <-- put here if you have one
 // OR fallback to a name search (use quotes; add institution to reduce ambiguity):
-const AUTHOR_QUERY = '"Karlye Wong" University of Toronto'; // change to your author/lab PI
+const AUTHOR_QUERY = '"Shooka Karimpour" York University'; // change to your author/lab PI
 
 // How many results to fetch (OpenAlex paginates using cursor)
 const MAX_ITEMS = 500;
