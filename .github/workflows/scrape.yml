@@ -1,43 +1,38 @@
-name: scrape-scholar
-
+name: sync-openalex
 on:
   schedule:
-    - cron: "0 4 * * 1"     # Mondays 04:00 UTC (gentle cadence)
-  workflow_dispatch: {}      # allow manual runs
-
+    - cron: "0 4 * * 1"   # weekly; change as you like
+  workflow_dispatch: {}
 permissions:
-  contents: write            # needed to commit docs/pubs.json
+  contents: write
 
 jobs:
   build:
-    # Make sure these labels match your runner (check Settings → Actions → Runners)
     runs-on: [self-hosted, Windows, X64]
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: Install deps
-        run: npm install
+      - name: Install deps (none required)
+        run: echo "No deps"
         shell: powershell
 
-      - name: Scrape Google Scholar
-        run: node scraper.js
+      - name: Generate pubs.json from OpenAlex
+        run: node openalex.js
         shell: powershell
 
-      - name: Commit & push JSON (and any debug files)
+      - name: Commit & push JSON
         shell: powershell
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/pubs.json docs/*.html docs/*.png
+          git add docs/pubs.json
           git diff --staged --quiet
           if ($LASTEXITCODE -eq 0) {
             Write-Host "No changes"
             exit 0
           }
-          git commit -m "Update pubs.json"
+          git commit -m "Update pubs.json via OpenAlex"
           git push
