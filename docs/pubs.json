@@ -1,5 +1,260 @@
 {
-  "updated": "2025-11-10T14:10:13.356Z",
-  "count": 0,
-  "items": []
+  "source": "openalex",
+  "author": "https://openalex.org/A5019943485",
+  "updated": "2025-11-12T03:59:22.066Z",
+  "count": 36,
+  "items": [
+    {
+      "title": "Correction to “Seasonal and In-Depth Distribution of Anthropogenic Microparticles in Hamilton Harbour”",
+      "authors": "Behnam Nayebi, Reza Valipour, David C. Depew, Rama Pulicharla, Satinder Kaur Brar, Shooka Karimpour",
+      "venue": "ACS ES&T Water",
+      "year": 2025,
+      "url": "https://doi.org/https://doi.org/10.1021/acsestwater.5c00722"
+    },
+    {
+      "title": "Microplastic detection in saline water utilizing a microfluidic sensor with MXene-coated electrodes and a Wheatstone bridge",
+      "authors": "Haider Warraich, Alireza Zabihihesari, Shooka Karimpour, Pouya Rezai",
+      "venue": "Microchimica Acta",
+      "year": 2025,
+      "url": "https://doi.org/https://doi.org/10.1007/s00604-025-07335-2"
+    },
+    {
+      "title": "Microfluidic Sensor for Microplastic Detection in Saline Freshwater: Enhancements by Wheatstone Bridge and MXene-Coated Electrodes",
+      "authors": "Haider Warraich, Alireza Zabihihesari, Shooka Karimpour, Pouya Rezai",
+      "venue": "",
+      "year": 2025,
+      "url": "https://doi.org/https://doi.org/10.1109/transducers61432.2025.11110378"
+    },
+    {
+      "title": "Seasonal and In-Depth Distribution of Anthropogenic Microparticles in Hamilton Harbour",
+      "authors": "Behnam Nayebi, Reza Valipour, David C. Depew, Rama Pulicharla, Satinder Kaur Brar, Shooka Karimpour",
+      "venue": "ACS ES&T Water",
+      "year": 2025,
+      "url": "https://doi.org/https://doi.org/10.1021/acsestwater.5c00047"
+    },
+    {
+      "title": "Wastewater-induced microplastic biofouling in freshwater: role of particle size and flow velocity",
+      "authors": "Gaurav Bhardwaj, Mohammad Mohammadiun, Carlos Saul Osorio Gonzalez, Satinder Kaur Brar, Shooka Karimpour",
+      "venue": "Environmental Science Advances",
+      "year": 2024,
+      "url": "https://doi.org/https://doi.org/10.1039/d4va00303a"
+    },
+    {
+      "title": "Comparative analysis of hydrodynamic loads on bridge piers: assessing standards through numerical modeling",
+      "authors": "Seyed Mohammad Hadi Moosavian, Shooka Karimpour, S. J. Pantazopoulou",
+      "venue": "Canadian Journal of Civil Engineering",
+      "year": 2024,
+      "url": "https://doi.org/https://doi.org/10.1139/cjce-2024-0145"
+    },
+    {
+      "title": "Simultaneous flow and particle measurements for multiphase flows in hydraulic engineering: A review and synthesis of current state",
+      "authors": "Siamak Seyfi, Shooka Karimpour, Ram Balachandar",
+      "venue": "Flow Measurement and Instrumentation",
+      "year": 2024,
+      "url": "https://doi.org/https://doi.org/10.1016/j.flowmeasinst.2024.102666"
+    },
+    {
+      "title": "Simultaneous Flow and Particle Velocity Measurements in Multiphase Flows with Applications in Hydraulic Engineering: A Review and Synthesis of Current State",
+      "authors": "Siamak Seyfi, Shooka Karimpour, Ram Balachandar",
+      "venue": "SSRN Electronic Journal",
+      "year": 2024,
+      "url": "https://doi.org/https://doi.org/10.2139/ssrn.4789780"
+    },
+    {
+      "title": "Microplastics Entrainment in Turbulent Flow: A Numerical Study on the Effect of Shape and Other Physical Particle Properties",
+      "authors": "Arefeh Shamskhany, Shooka Karimpour",
+      "venue": "SSRN Electronic Journal",
+      "year": 2024,
+      "url": "https://doi.org/https://doi.org/10.2139/ssrn.4961818"
+    },
+    {
+      "title": "Turbulent-Induced Transport of Microplastic Contaminants: A Numerical Study",
+      "authors": "Arefeh Shamskhany, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2024,
+      "url": "https://doi.org/https://doi.org/10.1007/978-3-031-61519-1_7"
+    },
+    {
+      "title": "Impacts of Biofilm Formation on the Physicochemical Properties and Toxicity of Microplastics: A Concise Review",
+      "authors": "Joshua Moyal, Preeti H. Dave, Mengjie Wu, Shooka Karimpour, Satinder Kaur Brar, Huan Zhong, Raymond W. M. Kwong",
+      "venue": "Reviews of Environmental Contamination and Toxicology",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.1007/s44169-023-00035-z"
+    },
+    {
+      "title": "Preservation, storage, and sample preparation methods for freshwater microplastics – a comprehensive review",
+      "authors": "Behnam Nayebi, Pratishtha Khurana, Rama Pulicharla, Shooka Karimpour, Satinder Kaur Brar",
+      "venue": "Environmental Science Advances",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.1039/d3va00043e"
+    },
+    {
+      "title": "Settling and Rising Hydrodynamics of Microplastic Pollutants: A Numerical Study",
+      "authors": "Zihe Zhao, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.1007/978-3-031-34593-7_80"
+    },
+    {
+      "title": "On Instantanous Behaviour of Microplastic Contaminants in Turbulent Flow",
+      "authors": "Arefeh Shamskhany, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.1007/978-3-031-34593-7_70"
+    },
+    {
+      "title": "Turbulent characteristics and anisotropy in breaking surge waves: A numerical study",
+      "authors": "Akash Venkateshwaran, Zhuoran Li, Shooka Karimpour",
+      "venue": "Physics of Fluids",
+      "year": 2022,
+      "url": "https://doi.org/https://doi.org/10.1063/5.0130657"
+    },
+    {
+      "title": "Entrainment and vertical mixing of aquatic microplastics in turbulent flow: The coupled role of particle size and density",
+      "authors": "Arefeh Shamskhany, Shooka Karimpour",
+      "venue": "Marine Pollution Bulletin",
+      "year": 2022,
+      "url": "https://doi.org/https://doi.org/10.1016/j.marpolbul.2022.114160"
+    },
+    {
+      "title": "The Role of Microplastics’ Size and Density on Their Vertical Turbulent Mixing and Transport",
+      "authors": "Arefeh Shamskhany, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2022,
+      "url": "https://doi.org/https://doi.org/10.1007/978-981-19-1065-4_21"
+    },
+    {
+      "title": "Numerical Investigation of Turbulent Structures and Air Entrainment in Positive Surge Waves",
+      "authors": "Zhuoran Li, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2022,
+      "url": "https://doi.org/https://doi.org/10.1007/978-981-19-1065-4_23"
+    },
+    {
+      "title": "Influence of Surge Waves on the Transport of Macroplastics",
+      "authors": "Preet Patel, M. Krol, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2022,
+      "url": "https://doi.org/https://doi.org/10.1007/978-981-19-1065-4_7"
+    },
+    {
+      "title": "Vertical Diffusion Of Microplastics In Turbulent Flow",
+      "authors": "Arefeh Shamskhany, Shooka Karimpour",
+      "venue": "Proceedings of the 39th IAHR World Congress",
+      "year": 2022,
+      "url": "https://doi.org/https://doi.org/10.3850/iahr-39wc2521711920221339"
+    },
+    {
+      "title": "Settling and Rising Hydrodynamics of Microplastic Contaminants: A Numerical Investigation",
+      "authors": "Zihe Zhao, Shooka Karimpour",
+      "venue": "Proceedings of the 39th IAHR World Congress",
+      "year": 2022,
+      "url": "https://doi.org/https://doi.org/10.3850/iahr-39wc2521711920221436"
+    },
+    {
+      "title": "Evidence of Microplastic Size Impact on Mobility and Transport in the Marine Environment: A Review and Synthesis of Recent Research",
+      "authors": "Arefeh Shamskhany, Zhuoran Li, Preet Patel, Shooka Karimpour",
+      "venue": "Frontiers in Marine Science",
+      "year": 2021,
+      "url": "https://doi.org/https://doi.org/10.3389/fmars.2021.760649"
+    },
+    {
+      "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
+      "authors": "Zhuoran Li, Akash Venkateshwaran, Shooka Karimpour",
+      "venue": "Fluids",
+      "year": 2021,
+      "url": "https://doi.org/https://doi.org/10.3390/fluids6120422"
+    },
+    {
+      "title": "The exchanges between the mainstream in an open channel and a recirculating flow on its side at large Froude numbers",
+      "authors": "Shooka Karimpour, Tao Wang, Vincent H. Chu",
+      "venue": "Journal of Fluid Mechanics",
+      "year": 2021,
+      "url": "https://doi.org/https://doi.org/10.1017/jfm.2021.418"
+    },
+    {
+      "title": "Evaluation of sector-specific AWARE characterization factors for water scarcity footprint of electricity generation",
+      "authors": "Shooka Karimpour, Anne‐Marie Boulay, Cécile Bulle",
+      "venue": "The Science of The Total Environment",
+      "year": 2020,
+      "url": "https://doi.org/https://doi.org/10.1016/j.scitotenv.2020.142063"
+    },
+    {
+      "title": "The lateral mixing by waves in steep river channel",
+      "authors": "Shooka Karimpour, Vincent H. Chu",
+      "venue": "",
+      "year": 2020,
+      "url": "https://doi.org/https://doi.org/10.1201/b22619-187"
+    },
+    {
+      "title": "THE ROLE OF WAVES ONFLOW RESISTANCE IN HIGH-SPEED SHEAR FLOW",
+      "authors": "Shooka Karimpour, Vincent H. Chu",
+      "venue": "Proceedings of the IAHR World Congress",
+      "year": 2019,
+      "url": "https://doi.org/https://doi.org/10.3850/38wc092019-0411"
+    },
+    {
+      "title": "The role of waves on mixing in shallow waters",
+      "authors": "Shooka Karimpour, Vincent H. Chu",
+      "venue": "Canadian Journal of Civil Engineering",
+      "year": 2018,
+      "url": "https://doi.org/https://doi.org/10.1139/cjce-2017-0311"
+    },
+    {
+      "title": "A Multimedia Hydrological Fate Modeling Framework To Assess Water Consumption Impacts in Life Cycle Assessment",
+      "authors": "Montserrat Núñez, Ralph K. Rosenbaum, Shooka Karimpour, Anne‐Marie Boulay, Michael J. Lathuillière, Manuele Margni, Laura Scherer, Francesca Verones, Stephan Pfister",
+      "venue": "Environmental Science & Technology",
+      "year": 2018,
+      "url": "https://doi.org/https://doi.org/10.1021/acs.est.7b05207"
+    },
+    {
+      "title": "Instability of unbounded transverse mixing layer in shallow waters",
+      "authors": "Shooka Karimpour, Vincent H. Chu",
+      "venue": "Canadian Journal of Civil Engineering",
+      "year": 2016,
+      "url": "https://doi.org/https://doi.org/10.1139/cjce-2016-0018"
+    },
+    {
+      "title": "High-order interpolation schemes for shear instability simulations",
+      "authors": "Shooka Karimpour, Vincent H. Chu",
+      "venue": "International Journal of Numerical Methods for Heat &amp Fluid Flow",
+      "year": 2015,
+      "url": "https://doi.org/https://doi.org/10.1108/hff-07-2014-0235"
+    },
+    {
+      "title": "Transverse dam-break waves",
+      "authors": "Shooka Karimpour, Vincent H. Chu",
+      "venue": "Journal of Fluid Mechanics",
+      "year": 2014,
+      "url": "https://doi.org/https://doi.org/10.1017/jfm.2014.562"
+    },
+    {
+      "title": "Microplastic Entrainment in Turbulent Flow: A Numerical Study",
+      "authors": "Arefeh Shamskhany, Shooka Karimpour",
+      "venue": "Proceedings of the IAHR World Congress",
+      "year": 2013,
+      "url": "https://doi.org/https://doi.org/10.3850/978-90-833476-1-5_iahr40wc-p0497-cd"
+    },
+    {
+      "title": "Discussion of \"Semianalytical Model for Shear Stress Distribution in Simple and Compound Open Channels\" by A. R.",
+      "authors": "Yee‐Chung Jin, Shooka Karimpour",
+      "venue": "",
+      "year": 2010,
+      "url": "https://openalex.org/W2186183003"
+    },
+    {
+      "title": "Fate of Environmental Pollutants",
+      "authors": "Christophe Darnault, Shooka Karimpour",
+      "venue": "Water Environment Research",
+      "year": 2009,
+      "url": "https://doi.org/https://doi.org/10.2175/106143009x12445568400656"
+    },
+    {
+      "title": "Semianalytical Model for Shear Stress Distribution in Simple and Compound Open Channels",
+      "authors": "Amir Reza Zarrati, Yee‐Chung Jin, Shooka Karimpour",
+      "venue": "Journal of Hydraulic Engineering",
+      "year": 2008,
+      "url": "https://doi.org/https://doi.org/10.1061/(asce)0733-9429(2008)134:2(205)"
+    }
+  ]
 }
