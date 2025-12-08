@@ -1,8 +1,8 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2025-12-01T04:43:55.515Z",
-  "count": 36,
+  "updated": "2025-12-08T04:28:32.189Z",
+  "count": 39,
   "items": [
     {
       "title": "Correction to “Seasonal and In-Depth Distribution of Anthropogenic Microparticles in Hamilton Harbour”",
@@ -31,6 +31,27 @@
       "venue": "ACS ES&T Water",
       "year": 2025,
       "url": "https://doi.org/https://doi.org/10.1021/acsestwater.5c00047"
+    },
+    {
+      "title": "Response of microplastic particles to turbulent flow: An experimental study",
+      "authors": "Siamak Seyfi, Shooka Karimpour, Ram Balachandar, Ron Shnapp",
+      "venue": "",
+      "year": 2025,
+      "url": "https://doi.org/https://doi.org/10.1201/9781003475378-105"
+    },
+    {
+      "title": "Microplastic Particle Behavior in Turbulent Flows: Insights from Experimental Investigations",
+      "authors": "Siamak Seyfi, Ram Balachandar, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2025,
+      "url": "https://doi.org/https://doi.org/10.1007/978-3-031-95107-7_14"
+    },
+    {
+      "title": "Turbulence and Self-Similarity in Classical Hydraulic Jumps",
+      "authors": "Mohammadmehdi Ramezani, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2025,
+      "url": "https://doi.org/https://doi.org/10.1007/978-3-031-95107-7_13"
     },
     {
       "title": "Wastewater-induced microplastic biofouling in freshwater: role of particle size and flow velocity",
@@ -89,18 +110,18 @@
       "url": "https://doi.org/https://doi.org/10.1039/d3va00043e"
     },
     {
-      "title": "Settling and Rising Hydrodynamics of Microplastic Pollutants: A Numerical Study",
-      "authors": "Zihe Zhao, Shooka Karimpour",
-      "venue": "Lecture notes in civil engineering",
-      "year": 2023,
-      "url": "https://doi.org/https://doi.org/10.1007/978-3-031-34593-7_80"
-    },
-    {
       "title": "On Instantanous Behaviour of Microplastic Contaminants in Turbulent Flow",
       "authors": "Arefeh Shamskhany, Shooka Karimpour",
       "venue": "Lecture notes in civil engineering",
       "year": 2023,
       "url": "https://doi.org/https://doi.org/10.1007/978-3-031-34593-7_70"
+    },
+    {
+      "title": "Settling and Rising Hydrodynamics of Microplastic Pollutants: A Numerical Study",
+      "authors": "Zihe Zhao, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.1007/978-3-031-34593-7_80"
     },
     {
       "title": "Turbulent characteristics and anisotropy in breaking surge waves: A numerical study",
