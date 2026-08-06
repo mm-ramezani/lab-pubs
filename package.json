@@ -2,12 +2,10 @@
   "name": "lab-pubs",
   "private": true,
   "type": "module",
-  "scripts": {
-    "scrape": "node scraper.js"
+  "engines": {
+    "node": ">=18"
   },
-  "dependencies": {
-    "puppeteer": "^23.7.0",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  "scripts": {
+    "sync": "node openalex.js"
   }
 }
