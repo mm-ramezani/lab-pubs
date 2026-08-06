@@ -63,13 +63,13 @@ async function getJson(url, { retries = 3 } = {}) {
   throw lastErr;
 }
 
-/** Resolve the OpenAlex author ID from ORCID, falling back to a name search. */
-async function getAuthorId() {
+/** Resolve the OpenAlex author record from ORCID, falling back to a name search. */
+async function getAuthor() {
   if (ORCID) {
     const j = await getJson(
       `https://api.openalex.org/authors?filter=orcid:${encodeURIComponent(ORCID)}`
     );
-    if (j.results?.length) return j.results[0].id;
+    if (j.results?.length) return j.results[0];
     throw new Error(`No OpenAlex author found for ORCID ${ORCID}`);
   }
 
@@ -77,7 +77,7 @@ async function getAuthorId() {
     `https://api.openalex.org/authors?search=${encodeURIComponent(AUTHOR_QUERY)}&per-page=5`
   );
   if (!j.results?.length) throw new Error(`No author found for query: ${AUTHOR_QUERY}`);
-  return j.results[0].id;
+  return j.results[0];
 }
 
 /**
@@ -123,7 +123,7 @@ function mapWork(w) {
     w.id ||
     "";
 
-  return { title, authors, venue, year, url };
+  return { title, authors, venue, year, url, citations: w.cited_by_count || 0 };
 }
 
 async function fetchAllWorksByAuthor(authorId) {
@@ -155,10 +155,10 @@ async function fetchAllWorksByAuthor(authorId) {
 
 (async () => {
   try {
-    const authorId = await getAuthorId();
-    console.log(`Author: ${authorId}`);
+    const author = await getAuthor();
+    console.log(`Author: ${author.display_name} (${author.id})`);
 
-    const items = await fetchAllWorksByAuthor(authorId);
+    const items = await fetchAllWorksByAuthor(author.id);
 
     // Guard: never replace a good file with an empty one.
     if (items.length === 0) {
@@ -167,9 +167,18 @@ async function fetchAllWorksByAuthor(authorId) {
 
     const payload = {
       source: "openalex",
-      author: authorId,
+      author: author.id,
       updated: new Date().toISOString(),
       count: items.length,
+      // Author-level metrics, straight from OpenAlex's own summary_stats.
+      // Note these are lower than Google Scholar's, which also counts theses,
+      // preprints and unindexed venues.
+      stats: {
+        works: author.works_count || items.length,
+        citations: author.cited_by_count || 0,
+        h_index: author.summary_stats?.h_index ?? null,
+        i10_index: author.summary_stats?.i10_index ?? null,
+      },
       items,
     };
 
