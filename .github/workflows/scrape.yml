@@ -1,38 +1,39 @@
 name: sync-openalex
+
 on:
   schedule:
-    - cron: "0 4 * * 1"   # weekly; change as you like
+    - cron: "0 4 * * 1" # every Monday 04:00 UTC
   workflow_dispatch: {}
+
 permissions:
   contents: write
 
 jobs:
-  build:
-    runs-on: [self-hosted, Windows, X64]
+  sync:
+    # GitHub-hosted runner. The old self-hosted Windows runner was only needed
+    # by the retired Google Scholar scraper; the OpenAlex script is plain fetch.
+    runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: Install deps (none required)
-        run: echo "No deps"
-        shell: powershell
-
       - name: Generate pubs.json from OpenAlex
+        env:
+          OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
         run: node openalex.js
-        shell: powershell
 
       - name: Commit & push JSON
-        shell: powershell
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/pubs.json
-          git diff --staged --quiet
-          if ($LASTEXITCODE -eq 0) {
-            Write-Host "No changes"
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
             exit 0
-          }
+          fi
           git commit -m "Update pubs.json via OpenAlex"
           git push
