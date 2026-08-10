@@ -1,11 +1,11 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-08-06T06:14:41.487Z",
+  "updated": "2026-08-10T05:19:33.365Z",
   "count": 43,
   "stats": {
     "works": 43,
-    "citations": 465,
+    "citations": 468,
     "h_index": 9,
     "i10_index": 8
   },
@@ -168,7 +168,7 @@
       "venue": "Environmental Science Advances",
       "year": 2023,
       "url": "https://doi.org/10.1039/d3va00043e",
-      "citations": 33
+      "citations": 34
     },
     {
       "title": "On Instantanous Behaviour of Microplastic Contaminants in Turbulent Flow",
@@ -192,7 +192,7 @@
       "venue": "Physics of Fluids",
       "year": 2022,
       "url": "https://doi.org/10.1063/5.0130657",
-      "citations": 5
+      "citations": 6
     },
     {
       "title": "Entrainment and vertical mixing of aquatic microplastics in turbulent flow: The coupled role of particle size and density",
