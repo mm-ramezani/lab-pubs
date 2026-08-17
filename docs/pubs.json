@@ -1,11 +1,11 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-08-10T05:19:33.365Z",
+  "updated": "2026-08-17T04:34:08.658Z",
   "count": 43,
   "stats": {
     "works": 43,
-    "citations": 468,
+    "citations": 470,
     "h_index": 9,
     "i10_index": 8
   },
@@ -20,11 +20,11 @@
     },
     {
       "title": "Enrichment of high-risk antibiotic resistance genes on microplastics in freshwater environments: A meta-analysis",
-      "authors": "Maryam Zarean, Sayed Esmaeil Mousavi, Sejal Dave, Jake W. O'Brien, Kevin Thomas, Emily M. Stevenson, Paridhi Jay Singh, Shooka Karimpour, Huan Zhong, Satinder Kaur Brar, Raymond W.M. Kwong",
+      "authors": "Maryam Zarean, Sayed Esmaeil Mousavi, Sejal Dave, Jake O’Brien, Kevin Thomas, Emily M. Stevenson, Paridhi Jay Singh, Shooka Karimpour, Huan Zhong, Satinder Kaur Brar, Raymond W.M. Kwong",
       "venue": "Environmental Pollution",
       "year": 2026,
       "url": "https://doi.org/10.1016/j.envpol.2026.128053",
-      "citations": 0
+      "citations": 1
     },
     {
       "title": "Wake Dynamics of Spherical Microplastics under Quiescent Conditions: A Numerical Study",
@@ -192,7 +192,7 @@
       "venue": "Physics of Fluids",
       "year": 2022,
       "url": "https://doi.org/10.1063/5.0130657",
-      "citations": 6
+      "citations": 7
     },
     {
       "title": "Entrainment and vertical mixing of aquatic microplastics in turbulent flow: The coupled role of particle size and density",
