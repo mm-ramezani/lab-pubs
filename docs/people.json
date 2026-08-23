@@ -48,7 +48,7 @@
       "joined": "January 2022",
       "supervisors": ["Dr. Shooka Karimpour", "Dr. Satinder Brar"],
       "linkedin": "https://www.linkedin.com/in/behnam-nayebi-5b6423119/",
-      "scholar": "",
+      "scholar": "https://scholar.google.com/citations?hl=en&user=SlCJvY8AAAAJ",
       "research": "Behnam's research investigates the correlation between hydrodynamics and microplastic distribution in the southwestern region of Lake Ontario. His work explores how nearshore plumes, offshore currents, and thermal stratification influence microplastic patterns in water and sediment. He is developing new methods for sampling, preparation, and analysis to better understand how water movement and source proximity shape microplastic transport and deposition."
     },
     {
@@ -58,7 +58,7 @@
       "joined": "January 2022",
       "supervisors": ["Dr. Shooka Karimpour"],
       "linkedin": "https://www.linkedin.com/in/siamak-seyfi-699511150/",
-      "scholar": "",
+      "scholar": "https://scholar.google.com/citations?user=q-gRJjIAAAAJ&hl=en&oi=ao",
       "research": "Siamak's research explores how turbulence influences the transport and settling of microplastics in aquatic systems through experimental studies using Particle Image Velocimetry (PIV) and Particle Tracking Velocimetry (PTV)."
     },
     {
@@ -68,7 +68,7 @@
       "joined": "September 2022",
       "supervisors": ["Dr. Shooka Karimpour", "Dr. Stavroula Pantazopoulou"],
       "linkedin": "https://www.linkedin.com/in/smhadimoosavian/",
-      "scholar": "",
+      "scholar": "https://scholar.google.com/citations?hl=en&user=w6PPcd0AAAAJ",
       "research": "Hadi's research focuses on numerical modeling of fluid–soil–structure interaction, with particular emphasis on assessing the effects of hydrodynamic loads and local scouring on the structural performance of bridge piers."
     },
     {
@@ -78,7 +78,7 @@
       "joined": "September 2023",
       "supervisors": ["Dr. Shooka Karimpour"],
       "linkedin": "https://www.linkedin.com/in/mohammadmehdi-ramezani/",
-      "scholar": "",
+      "scholar": "https://scholar.google.com/citations?hl=en&user=E-NDKFUAAAAJ",
       "research": "Mohammadmehdi's research focuses on turbulent multiphase flow using high-fidelity CFD approaches across a wide range of environmental and engineering applications. He investigates turbulent mass fluxes in hydraulic jumps and studies the settling of microplastics in quiescent and turbulent flows to improve understanding of their behavior under different ambient conditions and to enhance existing large-scale transport models."
     },
     {
@@ -134,7 +134,7 @@
       "now": "",
       "supervisors": ["Dr. Shooka Karimpour"],
       "linkedin": "https://www.linkedin.com/in/arefeh-shamskhany/",
-      "scholar": "",
+      "scholar": "https://scholar.google.com/citations?hl=en&user=QEsdpjQAAAAJ",
       "research": "Arefeh's doctoral research focused on the transport of microplastics in aquatic environments, with particular emphasis on the effects of particle physical characteristics. Her work primarily employed computational fluid dynamics (CFD) to simulate the transport, entrainment, and vertical motion of microplastics in turbulent flow using high-resolution numerical models. She also conducted laboratory experiments to advance understanding of microplastic behaviour in natural water systems."
     }
   ]
