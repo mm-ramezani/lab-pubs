@@ -1,0 +1,141 @@
+{
+  "_readme": "EHD Lab people. Edit this file on github.com to change the People page — no need to touch Squarespace. Photos live in docs/people/ and are referenced by filename only. Every field except 'name' is optional; anything blank is simply not rendered. Content transcribed from the previous ehdlab.ca/people page, August 2026.",
+  "_fields": {
+    "name": "Full name as displayed.",
+    "role": "e.g. 'PhD Student', 'MASc Student', 'Postdoctoral Fellow'.",
+    "photo": "Filename in docs/people/, or a full https:// URL. Blank shows initials in a coloured circle.",
+    "joined": "e.g. 'September 2023'. Shown as 'Joined September 2023'.",
+    "graduated": "Alumni only. Card then reads '2019 – 2024' and the person appears under Alumni.",
+    "areas": "PI only. Array of research areas, shown as a list in the right-hand rail of the PI card. Four to six reads best.",
+    "supervisors": "Array of names. Shown inside the expanded Research panel.",
+    "note": "Any extra line, e.g. a co-enrolment. Shown in the expanded panel.",
+    "now": "Alumni only. Current position, e.g. 'Postdoctoral Fellow, TU Delft'.",
+    "linkedin": "Full URL.",
+    "scholar": "Full Google Scholar URL.",
+    "orcid": "Full https://orcid.org/... URL. Renders the ORCID iD mark.",
+    "website": "Personal or group site. Renders a globe. An ORCID URL left here is detected and moved to the ORCID icon automatically.",
+    "email": "Plain address; the mailto: prefix is added automatically.",
+    "research": "The research summary revealed by the 'Research' button."
+  },
+
+  "updated": "2026-08-23",
+
+  "pi": {
+    "name": "Shooka Karimpour, Ph.D., P.Eng.",
+    "role": "Principal Investigator",
+    "title": "Associate Professor of Civil Engineering, York University",
+    "photo": "shooka-karimpour.jpg",
+    "linkedin": "https://www.linkedin.com/in/shookakarimpour/",
+    "scholar": "https://scholar.google.com/citations?user=bc6CiFkAAAAJ",
+    "orcid": "https://orcid.org/0000-0002-3229-749X",
+    "website": "",
+    "email": "",
+    "areas": [
+      "Microplastic transport",
+      "Turbulent mixing",
+      "Multiphase flow",
+      "Hydraulic structures",
+      "Environmental hydrodynamics"
+    ],
+    "research": "Dr. Shooka Karimpour is an Associate Professor of Civil Engineering at York University and Principal Investigator of the Environmental HydroDynamics (EHD) Lab. Her research focuses on turbulent mixing, multiphase flow, and microplastic transport in aquatic systems."
+  },
+
+  "members": [
+    {
+      "name": "Behnam Nayebi",
+      "role": "PhD Student",
+      "photo": "behnam-nayebi.jpg",
+      "joined": "January 2022",
+      "supervisors": ["Dr. Shooka Karimpour", "Dr. Satinder Brar"],
+      "linkedin": "https://www.linkedin.com/in/behnam-nayebi-5b6423119/",
+      "scholar": "",
+      "research": "Behnam's research investigates the correlation between hydrodynamics and microplastic distribution in the southwestern region of Lake Ontario. His work explores how nearshore plumes, offshore currents, and thermal stratification influence microplastic patterns in water and sediment. He is developing new methods for sampling, preparation, and analysis to better understand how water movement and source proximity shape microplastic transport and deposition."
+    },
+    {
+      "name": "Siamak Seyfi",
+      "role": "PhD Student",
+      "photo": "siamak-seyfi.jpg",
+      "joined": "January 2022",
+      "supervisors": ["Dr. Shooka Karimpour"],
+      "linkedin": "https://www.linkedin.com/in/siamak-seyfi-699511150/",
+      "scholar": "",
+      "research": "Siamak's research explores how turbulence influences the transport and settling of microplastics in aquatic systems through experimental studies using Particle Image Velocimetry (PIV) and Particle Tracking Velocimetry (PTV)."
+    },
+    {
+      "name": "S.M. Hadi Mousavian",
+      "role": "PhD Student",
+      "photo": "hadi-mousavian.jpg",
+      "joined": "September 2022",
+      "supervisors": ["Dr. Shooka Karimpour", "Dr. Stavroula Pantazopoulou"],
+      "linkedin": "https://www.linkedin.com/in/smhadimoosavian/",
+      "scholar": "",
+      "research": "Hadi's research focuses on numerical modeling of fluid–soil–structure interaction, with particular emphasis on assessing the effects of hydrodynamic loads and local scouring on the structural performance of bridge piers."
+    },
+    {
+      "name": "Mohammadmehdi Ramezani",
+      "role": "PhD Student",
+      "photo": "mohammadmehdi-ramezani.jpg",
+      "joined": "September 2023",
+      "supervisors": ["Dr. Shooka Karimpour"],
+      "linkedin": "https://www.linkedin.com/in/mohammadmehdi-ramezani/",
+      "scholar": "",
+      "research": "Mohammadmehdi's research focuses on turbulent multiphase flow using high-fidelity CFD approaches across a wide range of environmental and engineering applications. He investigates turbulent mass fluxes in hydraulic jumps and studies the settling of microplastics in quiescent and turbulent flows to improve understanding of their behavior under different ambient conditions and to enhance existing large-scale transport models."
+    },
+    {
+      "name": "Camillo De Castro",
+      "role": "MASc Student",
+      "photo": "camillo-de-castro.jpg",
+      "joined": "January 2024",
+      "supervisors": ["Dr. Shooka Karimpour"],
+      "linkedin": "",
+      "scholar": "",
+      "research": "Camillo's research focuses on the experimental investigation of particle–particle interactions affecting the settling of microplastic particles in quiescent water. He analyzes the hydrodynamic processes involved in the mobility of microplastics in water to better understand their transport and fate in aquatic environments and to advance mitigation and prevention efforts against microplastic contamination."
+    },
+    {
+      "name": "Anastasiia Bolshakova",
+      "role": "PhD Student",
+      "photo": "anastasiia-bolshakova.jpg",
+      "joined": "September 2024",
+      "supervisors": ["Dr. Shooka Karimpour", "Dr. Satinder Brar"],
+      "linkedin": "https://www.linkedin.com/in/anastasiia-bolshakova",
+      "scholar": "",
+      "research": "Anastasiia is doing a thesis on the weathering of microplastics during mesophilic anaerobic digestion of wastewater sludge."
+    },
+    {
+      "name": "Mohammad Ibraheem",
+      "role": "MASc Student",
+      "photo": "mohammad-ibraheem.jpg",
+      "joined": "September 2024",
+      "supervisors": ["Dr. Shooka Karimpour", "Dr. Stephanie Gora"],
+      "linkedin": "https://www.linkedin.com/in/mohammad-ibraheem-2b5338202",
+      "scholar": "",
+      "research": "Mohammad's research focuses on the detection and characterization of microplastics in permafrost thaw slumps. He completed his Bachelor of Engineering at York University, graduating in Summer 2024."
+    },
+    {
+      "name": "Vrashesh Karkar",
+      "role": "MASc Student",
+      "photo": "vrashesh-karkar.jpg",
+      "joined": "February 2025",
+      "note": "Enrolled at the University of Windsor since January 2023.",
+      "supervisors": ["Dr. Shooka Karimpour", "Dr. Tirupati Bolisetti"],
+      "linkedin": "https://www.linkedin.com/in/vrashesh-karkar-6613b1195/",
+      "scholar": "",
+      "research": "Vrashesh's research evaluates hydrological models for simulating microplastic transport in the Credit River and Humber River watersheds, which drain into Lake Ontario. His work combines rainfall-event sampling and laboratory analysis to determine microplastic concentrations and promotes standardized methods for improving data consistency across studies."
+    }
+  ],
+
+  "alumni": [
+    {
+      "name": "Arefeh Shamskhany, Ph.D.",
+      "role": "PhD Alumnus",
+      "photo": "arefeh-shamskhany.jpg",
+      "joined": "September 2019",
+      "graduated": "December 2024",
+      "now": "",
+      "supervisors": ["Dr. Shooka Karimpour"],
+      "linkedin": "https://www.linkedin.com/in/arefeh-shamskhany/",
+      "scholar": "",
+      "research": "Arefeh's doctoral research focused on the transport of microplastics in aquatic environments, with particular emphasis on the effects of particle physical characteristics. Her work primarily employed computational fluid dynamics (CFD) to simulate the transport, entrainment, and vertical motion of microplastics in turbulent flow using high-resolution numerical models. She also conducted laboratory experiments to advance understanding of microplastic behaviour in natural water systems."
+    }
+  ]
+}
