@@ -1,11 +1,11 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-08-17T04:34:08.658Z",
+  "updated": "2026-08-24T04:37:46.407Z",
   "count": 43,
   "stats": {
     "works": 43,
-    "citations": 470,
+    "citations": 472,
     "h_index": 9,
     "i10_index": 8
   },
@@ -248,7 +248,7 @@
       "venue": "Frontiers in Marine Science",
       "year": 2021,
       "url": "https://doi.org/10.3389/fmars.2021.760649",
-      "citations": 153
+      "citations": 155
     },
     {
       "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
