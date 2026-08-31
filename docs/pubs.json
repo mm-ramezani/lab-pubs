@@ -1,11 +1,11 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-08-24T04:37:46.407Z",
+  "updated": "2026-08-31T10:20:22.359Z",
   "count": 43,
   "stats": {
-    "works": 43,
-    "citations": 472,
+    "works": 45,
+    "citations": 478,
     "h_index": 9,
     "i10_index": 8
   },
@@ -24,7 +24,7 @@
       "venue": "Environmental Pollution",
       "year": 2026,
       "url": "https://doi.org/10.1016/j.envpol.2026.128053",
-      "citations": 1
+      "citations": 2
     },
     {
       "title": "Wake Dynamics of Spherical Microplastics under Quiescent Conditions: A Numerical Study",
@@ -56,7 +56,7 @@
       "venue": "Microchimica Acta",
       "year": 2025,
       "url": "https://doi.org/10.1007/s00604-025-07335-2",
-      "citations": 10
+      "citations": 11
     },
     {
       "title": "Microfluidic Sensor for Microplastic Detection in Saline Freshwater: Enhancements by Wheatstone Bridge and MXene-Coated Electrodes",
@@ -160,7 +160,7 @@
       "venue": "Reviews of Environmental Contamination and Toxicology",
       "year": 2023,
       "url": "https://doi.org/10.1007/s44169-023-00035-z",
-      "citations": 85
+      "citations": 86
     },
     {
       "title": "Preservation, storage, and sample preparation methods for freshwater microplastics – a comprehensive review",
@@ -200,7 +200,7 @@
       "venue": "Marine Pollution Bulletin",
       "year": 2022,
       "url": "https://doi.org/10.1016/j.marpolbul.2022.114160",
-      "citations": 60
+      "citations": 61
     },
     {
       "title": "The Role of Microplastics’ Size and Density on Their Vertical Turbulent Mixing and Transport",
@@ -248,7 +248,7 @@
       "venue": "Frontiers in Marine Science",
       "year": 2021,
       "url": "https://doi.org/10.3389/fmars.2021.760649",
-      "citations": 155
+      "citations": 156
     },
     {
       "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
@@ -304,7 +304,7 @@
       "venue": "Environmental Science & Technology",
       "year": 2018,
       "url": "https://doi.org/10.1021/acs.est.7b05207",
-      "citations": 22
+      "citations": 24
     },
     {
       "title": "A novel framework for a new generation of water consumption indicators in LCA and footprint studies",
