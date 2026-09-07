@@ -1,15 +1,31 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-08-31T10:20:22.359Z",
-  "count": 43,
+  "updated": "2026-09-07T08:48:46.785Z",
+  "count": 45,
   "stats": {
-    "works": 45,
-    "citations": 478,
+    "works": 46,
+    "citations": 485,
     "h_index": 9,
     "i10_index": 8
   },
   "items": [
+    {
+      "title": "Tsunami loads on bridge bents: pier interaction and dynamic amplification",
+      "authors": "Seyed Mohammad Hadi Moosavian, Shooka Karimpour, S. J. Pantazopoulou",
+      "venue": "Advances in Bridge Engineering",
+      "year": 2026,
+      "url": "https://doi.org/10.1186/s43251-026-00223-6",
+      "citations": 0
+    },
+    {
+      "title": "Influence of Particle Size and Feeding Conditions on Microplastic Ingestion and Depuration in Daphnia magna",
+      "authors": "Sejal Dave, Shooka Karimpour, Raymond W. M. Kwong",
+      "venue": "Environmental Pollution",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.envpol.2026.129107",
+      "citations": 0
+    },
     {
       "title": "Settling and drafting of spheres in quiescent fluids in microplastic-relevant regimes",
       "authors": "Siamak Seyfi, Camillo De Castro, W.S.J. Uijttewaal, Shooka Karimpour",
@@ -120,7 +136,7 @@
       "venue": "Canadian Journal of Civil Engineering",
       "year": 2024,
       "url": "https://doi.org/10.1139/cjce-2024-0145",
-      "citations": 3
+      "citations": 4
     },
     {
       "title": "Simultaneous flow and particle measurements for multiphase flows in hydraulic engineering: A review and synthesis of current state",
@@ -192,7 +208,7 @@
       "venue": "Physics of Fluids",
       "year": 2022,
       "url": "https://doi.org/10.1063/5.0130657",
-      "citations": 7
+      "citations": 8
     },
     {
       "title": "Entrainment and vertical mixing of aquatic microplastics in turbulent flow: The coupled role of particle size and density",
@@ -200,7 +216,7 @@
       "venue": "Marine Pollution Bulletin",
       "year": 2022,
       "url": "https://doi.org/10.1016/j.marpolbul.2022.114160",
-      "citations": 61
+      "citations": 62
     },
     {
       "title": "The Role of Microplastics’ Size and Density on Their Vertical Turbulent Mixing and Transport",
@@ -248,7 +264,7 @@
       "venue": "Frontiers in Marine Science",
       "year": 2021,
       "url": "https://doi.org/10.3389/fmars.2021.760649",
-      "citations": 156
+      "citations": 160
     },
     {
       "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
