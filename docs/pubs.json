@@ -1,11 +1,11 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-09-14T09:27:15.467Z",
-  "count": 45,
+  "updated": "2026-09-21T09:29:25.350Z",
+  "count": 46,
   "stats": {
-    "works": 46,
-    "citations": 494,
+    "works": 47,
+    "citations": 501,
     "h_index": 9,
     "i10_index": 8
   },
@@ -24,6 +24,14 @@
       "venue": "Advances in Bridge Engineering",
       "year": 2026,
       "url": "https://doi.org/10.1186/s43251-026-00223-6",
+      "citations": 0
+    },
+    {
+      "title": "INSIGHTS INTO THE SETTLING AND INTERACTION BEHAVIOUR OF SPHERICAL MICROPLASTICS",
+      "authors": "Mohammadmehdi Ramezani, Siamak SEYFI, Camillo De Castro, Shooka Karimpour",
+      "venue": "",
+      "year": 2026,
+      "url": "https://doi.org/10.64697/iahr.proc.ise2026.abs.337",
       "citations": 0
     },
     {
@@ -184,7 +192,7 @@
       "venue": "Environmental Science Advances",
       "year": 2023,
       "url": "https://doi.org/10.1039/d3va00043e",
-      "citations": 36
+      "citations": 39
     },
     {
       "title": "On Instantanous Behaviour of Microplastic Contaminants in Turbulent Flow",
@@ -216,7 +224,7 @@
       "venue": "Marine Pollution Bulletin",
       "year": 2022,
       "url": "https://doi.org/10.1016/j.marpolbul.2022.114160",
-      "citations": 62
+      "citations": 63
     },
     {
       "title": "The Role of Microplastics’ Size and Density on Their Vertical Turbulent Mixing and Transport",
@@ -264,7 +272,7 @@
       "venue": "Frontiers in Marine Science",
       "year": 2021,
       "url": "https://doi.org/10.3389/fmars.2021.760649",
-      "citations": 163
+      "citations": 164
     },
     {
       "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
@@ -320,7 +328,7 @@
       "venue": "Environmental Science & Technology",
       "year": 2018,
       "url": "https://doi.org/10.1021/acs.est.7b05207",
-      "citations": 25
+      "citations": 26
     },
     {
       "title": "A novel framework for a new generation of water consumption indicators in LCA and footprint studies",
@@ -368,7 +376,7 @@
       "venue": "Journal of Hydraulic Engineering",
       "year": 2008,
       "url": "https://doi.org/10.1061/(asce)0733-9429(2008)134:2(205)",
-      "citations": 28
+      "citations": 29
     }
   ]
 }
