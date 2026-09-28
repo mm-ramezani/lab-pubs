@@ -1,18 +1,18 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-09-21T09:29:25.350Z",
+  "updated": "2026-09-28T10:22:46.416Z",
   "count": 46,
   "stats": {
     "works": 47,
-    "citations": 501,
+    "citations": 504,
     "h_index": 9,
     "i10_index": 8
   },
   "items": [
     {
       "title": "Influence of particle size and feeding conditions on microplastic ingestion and depuration in Daphnia magna",
-      "authors": "Sejal Dave, Shooka Karimpour, Raymond W. M. Kwong",
+      "authors": "Sejal H. Dave, Shooka Karimpour, Raymond W. M. Kwong",
       "venue": "Environmental Pollution",
       "year": 2026,
       "url": "https://doi.org/10.1016/j.envpol.2026.129107",
@@ -28,7 +28,7 @@
     },
     {
       "title": "INSIGHTS INTO THE SETTLING AND INTERACTION BEHAVIOUR OF SPHERICAL MICROPLASTICS",
-      "authors": "Mohammadmehdi Ramezani, Siamak SEYFI, Camillo De Castro, Shooka Karimpour",
+      "authors": "Mohammadmehdi Ramezani, Siamak Seyfi, Camillo De Castro, Shooka Karimpour",
       "venue": "",
       "year": 2026,
       "url": "https://doi.org/10.64697/iahr.proc.ise2026.abs.337",
@@ -36,7 +36,7 @@
     },
     {
       "title": "Settling and drafting of spheres in quiescent fluids in microplastic-relevant regimes",
-      "authors": "Siamak Seyfi, Camillo De Castro, W.S.J. Uijttewaal, Shooka Karimpour",
+      "authors": "Siamak Seyfi, Camillo De Castro, Wim S. J. Uijttewaal, Shooka Karimpour",
       "venue": "Physics of Fluids",
       "year": 2026,
       "url": "https://doi.org/10.1063/5.0334330",
@@ -44,7 +44,7 @@
     },
     {
       "title": "Enrichment of high-risk antibiotic resistance genes on microplastics in freshwater environments: A meta-analysis",
-      "authors": "Maryam Zarean, Sayed Esmaeil Mousavi, Sejal Dave, Jake O’Brien, Kevin Thomas, Emily M. Stevenson, Paridhi Jay Singh, Shooka Karimpour, Huan Zhong, Satinder Kaur Brar, Raymond W.M. Kwong",
+      "authors": "Maryam Zarean, Sayed Esmaeil Mousavi, Sejal H. Dave, Jake William O'Brien, Kevin Victor Thomas, Emily M. Stevenson, Paridhi Jay Singh, Shooka Karimpour, Huan Zhong, Satinder Kaur Brar, Raymond W.M. Kwong",
       "venue": "Environmental Pollution",
       "year": 2026,
       "url": "https://doi.org/10.1016/j.envpol.2026.128053",
@@ -184,7 +184,7 @@
       "venue": "Reviews of Environmental Contamination and Toxicology",
       "year": 2023,
       "url": "https://doi.org/10.1007/s44169-023-00035-z",
-      "citations": 88
+      "citations": 89
     },
     {
       "title": "Preservation, storage, and sample preparation methods for freshwater microplastics – a comprehensive review",
@@ -244,7 +244,7 @@
     },
     {
       "title": "Influence of Surge Waves on the Transport of Macroplastics",
-      "authors": "Preet Patel, M. Krol, Shooka Karimpour",
+      "authors": "Preet Patel, Magdalena Krol, Shooka Karimpour",
       "venue": "Lecture notes in civil engineering",
       "year": 2022,
       "url": "https://doi.org/10.1007/978-981-19-1065-4_7",
@@ -272,7 +272,7 @@
       "venue": "Frontiers in Marine Science",
       "year": 2021,
       "url": "https://doi.org/10.3389/fmars.2021.760649",
-      "citations": 164
+      "citations": 166
     },
     {
       "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
@@ -324,7 +324,7 @@
     },
     {
       "title": "A Multimedia Hydrological Fate Modeling Framework To Assess Water Consumption Impacts in Life Cycle Assessment",
-      "authors": "Montserrat Núñez, Ralph K. Rosenbaum, Shooka Karimpour, Anne‐Marie Boulay, Michael J. Lathuillière, Manuele Margni, Laura Scherer, Francesca Verones, Stephan Pfister",
+      "authors": "Montserrat Núñez, Ralph K. Rosenbaum, Shooka Karimpour, Anne‐Marie Boulay, Michael J. Lathuillière, Manuele D. Margni, Laura Scherer, Francesca Verones, Stephan Pfister",
       "venue": "Environmental Science & Technology",
       "year": 2018,
       "url": "https://doi.org/10.1021/acs.est.7b05207",
@@ -332,7 +332,7 @@
     },
     {
       "title": "A novel framework for a new generation of water consumption indicators in LCA and footprint studies",
-      "authors": "Montserrat Núñez, Ralph K. Rosenbaum, Shooka Karimpour, Manuele Margni, Anne-Marie Boulay, Michael J. Lathuillière, Manuele Margni, Laura Scherer, Francesca Verones, Stephan Pfister",
+      "authors": "Montserrat Núñez, Ralph K. Rosenbaum, Shooka Karimpour, Manuele Margni, Anne‐Marie Boulay, Michael J. Lathuillière, Manuele Margni, Laura Scherer, Francesca Verones, Stephan Pfister",
       "venue": "PolyPublie (École Polytechnique de Montréal)",
       "year": 2018,
       "url": "https://publications.polymtl.ca/76557/",
