@@ -1,11 +1,11 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-09-28T10:22:46.416Z",
+  "updated": "2026-10-05T11:04:04.077Z",
   "count": 46,
   "stats": {
     "works": 47,
-    "citations": 504,
+    "citations": 508,
     "h_index": 9,
     "i10_index": 8
   },
@@ -28,7 +28,7 @@
     },
     {
       "title": "INSIGHTS INTO THE SETTLING AND INTERACTION BEHAVIOUR OF SPHERICAL MICROPLASTICS",
-      "authors": "Mohammadmehdi Ramezani, Siamak Seyfi, Camillo De Castro, Shooka Karimpour",
+      "authors": "Mohammadmehdi Ramezani, Siamak SEYFI, Camillo De Castro, Shooka Karimpour",
       "venue": "",
       "year": 2026,
       "url": "https://doi.org/10.64697/iahr.proc.ise2026.abs.337",
@@ -44,11 +44,11 @@
     },
     {
       "title": "Enrichment of high-risk antibiotic resistance genes on microplastics in freshwater environments: A meta-analysis",
-      "authors": "Maryam Zarean, Sayed Esmaeil Mousavi, Sejal H. Dave, Jake William O'Brien, Kevin Victor Thomas, Emily M. Stevenson, Paridhi Jay Singh, Shooka Karimpour, Huan Zhong, Satinder Kaur Brar, Raymond W.M. Kwong",
+      "authors": "Maryam Zarean, Sayed Esmaeil Mousavi, Sejal H. Dave, Jake William O'Brien, Kevin Victor Thomas, Emily M. Stevenson, Paridhi Jay Singh, Shooka Karimpour, Huan Zhong, Satinder Kaur Brar, Raymond W. M. Kwong",
       "venue": "Environmental Pollution",
       "year": 2026,
       "url": "https://doi.org/10.1016/j.envpol.2026.128053",
-      "citations": 2
+      "citations": 3
     },
     {
       "title": "Wake Dynamics of Spherical Microplastics under Quiescent Conditions: A Numerical Study",
@@ -100,8 +100,8 @@
     },
     {
       "title": "Response of microplastic particles to turbulent flow: An experimental study",
-      "authors": "Siamak Seyfi, Shooka Karimpour, Ram Balachandar, Ron Shnapp, Alex Liberzon",
-      "venue": "",
+      "authors": "S. Seyfi, Shooka Karimpour, Ram Balachandar, Ron Shnapp, Alex Liberzon",
+      "venue": "CRC Press eBooks",
       "year": 2025,
       "url": "https://doi.org/10.1201/9781003475378-105",
       "citations": 1
@@ -136,7 +136,7 @@
       "venue": "Environmental Science Advances",
       "year": 2024,
       "url": "https://doi.org/10.1039/d4va00303a",
-      "citations": 7
+      "citations": 8
     },
     {
       "title": "Comparative analysis of hydrodynamic loads on bridge piers: assessing standards through numerical modeling",
@@ -224,7 +224,7 @@
       "venue": "Marine Pollution Bulletin",
       "year": 2022,
       "url": "https://doi.org/10.1016/j.marpolbul.2022.114160",
-      "citations": 63
+      "citations": 64
     },
     {
       "title": "The Role of Microplastics’ Size and Density on Their Vertical Turbulent Mixing and Transport",
@@ -272,7 +272,7 @@
       "venue": "Frontiers in Marine Science",
       "year": 2021,
       "url": "https://doi.org/10.3389/fmars.2021.760649",
-      "citations": 166
+      "citations": 167
     },
     {
       "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
@@ -301,7 +301,7 @@
     {
       "title": "The lateral mixing by waves in steep river channel",
       "authors": "Shooka Karimpour, Vincent H. Chu",
-      "venue": "",
+      "venue": "CRC Press eBooks",
       "year": 2020,
       "url": "https://doi.org/10.1201/b22619-187",
       "citations": 0
