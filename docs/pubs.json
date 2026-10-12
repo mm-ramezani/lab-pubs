@@ -1,13 +1,13 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-10-05T11:04:04.077Z",
+  "updated": "2026-10-12T11:32:00.708Z",
   "count": 46,
   "stats": {
     "works": 47,
     "citations": 508,
     "h_index": 9,
-    "i10_index": 8
+    "i10_index": 9
   },
   "items": [
     {
@@ -80,12 +80,12 @@
       "venue": "Microchimica Acta",
       "year": 2025,
       "url": "https://doi.org/10.1007/s00604-025-07335-2",
-      "citations": 11
+      "citations": 12
     },
     {
       "title": "Microfluidic Sensor for Microplastic Detection in Saline Freshwater: Enhancements by Wheatstone Bridge and MXene-Coated Electrodes",
       "authors": "Haider Warraich, Alireza Zabihihesari, Shooka Karimpour, Pouya Rezai",
-      "venue": "",
+      "venue": "International Conference on Solid-State Sensors, Actuators and Microsystems",
       "year": 2025,
       "url": "https://doi.org/10.1109/transducers61432.2025.11110378",
       "citations": 2
@@ -132,7 +132,7 @@
     },
     {
       "title": "Wastewater-induced microplastic biofouling in freshwater: role of particle size and flow velocity",
-      "authors": "Gaurav Bhardwaj, Malihe Mohammadiun, Carlos Saul Osorio Gonzalez, Satinder Kaur Brar, Shooka Karimpour",
+      "authors": "Gaurav Bhardwaj, Malihe Mohammadiun, Carlos S. Osorio‐González, Satinder Kaur Brar, Shooka Karimpour",
       "venue": "Environmental Science Advances",
       "year": 2024,
       "url": "https://doi.org/10.1039/d4va00303a",
@@ -152,7 +152,7 @@
       "venue": "Flow Measurement and Instrumentation",
       "year": 2024,
       "url": "https://doi.org/10.1016/j.flowmeasinst.2024.102666",
-      "citations": 9
+      "citations": 10
     },
     {
       "title": "Simultaneous Flow and Particle Velocity Measurements in Multiphase Flows with Applications in Hydraulic Engineering: A Review and Synthesis of Current State",
@@ -253,7 +253,7 @@
     {
       "title": "Vertical Diffusion Of Microplastics In Turbulent Flow",
       "authors": "Arefeh Shamskhany, Shooka Karimpour",
-      "venue": "Proceedings of the 39th IAHR World Congress",
+      "venue": "Proceedings of the IAHR World Congress",
       "year": 2022,
       "url": "https://doi.org/10.3850/iahr-39wc2521711920221339",
       "citations": 0
@@ -261,7 +261,7 @@
     {
       "title": "Settling and Rising Hydrodynamics of Microplastic Contaminants: A Numerical Investigation",
       "authors": "Zihe Zhao, Shooka Karimpour",
-      "venue": "Proceedings of the 39th IAHR World Congress",
+      "venue": "Proceedings of the IAHR World Congress",
       "year": 2022,
       "url": "https://doi.org/10.3850/iahr-39wc2521711920221436",
       "citations": 0
@@ -272,7 +272,7 @@
       "venue": "Frontiers in Marine Science",
       "year": 2021,
       "url": "https://doi.org/10.3389/fmars.2021.760649",
-      "citations": 167
+      "citations": 165
     },
     {
       "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
@@ -296,7 +296,7 @@
       "venue": "The Science of The Total Environment",
       "year": 2020,
       "url": "https://doi.org/10.1016/j.scitotenv.2020.142063",
-      "citations": 14
+      "citations": 13
     },
     {
       "title": "The lateral mixing by waves in steep river channel",
@@ -332,7 +332,7 @@
     },
     {
       "title": "A novel framework for a new generation of water consumption indicators in LCA and footprint studies",
-      "authors": "Montserrat Núñez, Ralph K. Rosenbaum, Shooka Karimpour, Manuele Margni, Anne‐Marie Boulay, Michael J. Lathuillière, Manuele Margni, Laura Scherer, Francesca Verones, Stephan Pfister",
+      "authors": "Montserrat Núñez, Ralph K. Rosenbaum, Shooka Karimpour, Manuele Margni, Anne‐Marie Boulay, Michael J. Lathuillière, Laura Scherer, Francesca Verones, Stephan Pfister",
       "venue": "PolyPublie (École Polytechnique de Montréal)",
       "year": 2018,
       "url": "https://publications.polymtl.ca/76557/",
