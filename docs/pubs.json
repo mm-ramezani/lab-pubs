@@ -1,15 +1,23 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-10-12T11:32:00.708Z",
-  "count": 46,
+  "updated": "2026-10-19T09:29:32.371Z",
+  "count": 47,
   "stats": {
-    "works": 47,
-    "citations": 508,
+    "works": 48,
+    "citations": 512,
     "h_index": 9,
     "i10_index": 9
   },
   "items": [
+    {
+      "title": "Seismic Fragility Assessment of Shallow‐Foundation‐Supported Bridge Piers Subjected to Surge Wave‐Induced Scour",
+      "authors": "Seyed Mohammad Hadi Moosavian, Shooka Karimpour, S. J. Pantazopoulou",
+      "venue": "Earthquake Engineering & Structural Dynamics",
+      "year": 2026,
+      "url": "https://doi.org/10.1002/eqe.70314",
+      "citations": 0
+    },
     {
       "title": "Influence of particle size and feeding conditions on microplastic ingestion and depuration in Daphnia magna",
       "authors": "Sejal H. Dave, Shooka Karimpour, Raymond W. M. Kwong",
@@ -24,7 +32,7 @@
       "venue": "Advances in Bridge Engineering",
       "year": 2026,
       "url": "https://doi.org/10.1186/s43251-026-00223-6",
-      "citations": 0
+      "citations": 1
     },
     {
       "title": "INSIGHTS INTO THE SETTLING AND INTERACTION BEHAVIOUR OF SPHERICAL MICROPLASTICS",
@@ -195,20 +203,20 @@
       "citations": 39
     },
     {
+      "title": "Settling and Rising Hydrodynamics of Microplastic Pollutants: A Numerical Study",
+      "authors": "Zihe Zhao, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2023,
+      "url": "https://doi.org/10.1007/978-3-031-34593-7_80",
+      "citations": 1
+    },
+    {
       "title": "On Instantanous Behaviour of Microplastic Contaminants in Turbulent Flow",
       "authors": "Arefeh Shamskhany, Shooka Karimpour",
       "venue": "Lecture notes in civil engineering",
       "year": 2023,
       "url": "https://doi.org/10.1007/978-3-031-34593-7_70",
       "citations": 1
-    },
-    {
-      "title": "Settling and Rising Hydrodynamics of Microplastic Pollutants: A Numerical Study",
-      "authors": "Zihe Zhao, Shooka Karimpour",
-      "venue": "Lecture notes in civil engineering",
-      "year": 2023,
-      "url": "https://doi.org/10.1007/978-3-031-34593-7_80",
-      "citations": 0
     },
     {
       "title": "Turbulent characteristics and anisotropy in breaking surge waves: A numerical study",
@@ -224,7 +232,7 @@
       "venue": "Marine Pollution Bulletin",
       "year": 2022,
       "url": "https://doi.org/10.1016/j.marpolbul.2022.114160",
-      "citations": 64
+      "citations": 63
     },
     {
       "title": "The Role of Microplastics’ Size and Density on Their Vertical Turbulent Mixing and Transport",
@@ -232,7 +240,7 @@
       "venue": "Lecture notes in civil engineering",
       "year": 2022,
       "url": "https://doi.org/10.1007/978-981-19-1065-4_21",
-      "citations": 3
+      "citations": 5
     },
     {
       "title": "Numerical Investigation of Turbulent Structures and Air Entrainment in Positive Surge Waves",
@@ -272,7 +280,7 @@
       "venue": "Frontiers in Marine Science",
       "year": 2021,
       "url": "https://doi.org/10.3389/fmars.2021.760649",
-      "citations": 165
+      "citations": 167
     },
     {
       "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
