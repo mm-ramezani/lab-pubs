@@ -1,11 +1,11 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-10-19T09:29:32.371Z",
+  "updated": "2026-10-26T09:33:18.701Z",
   "count": 47,
   "stats": {
     "works": 48,
-    "citations": 512,
+    "citations": 514,
     "h_index": 9,
     "i10_index": 9
   },
@@ -200,7 +200,7 @@
       "venue": "Environmental Science Advances",
       "year": 2023,
       "url": "https://doi.org/10.1039/d3va00043e",
-      "citations": 39
+      "citations": 40
     },
     {
       "title": "Settling and Rising Hydrodynamics of Microplastic Pollutants: A Numerical Study",
@@ -232,7 +232,7 @@
       "venue": "Marine Pollution Bulletin",
       "year": 2022,
       "url": "https://doi.org/10.1016/j.marpolbul.2022.114160",
-      "citations": 63
+      "citations": 64
     },
     {
       "title": "The Role of Microplastics’ Size and Density on Their Vertical Turbulent Mixing and Transport",
