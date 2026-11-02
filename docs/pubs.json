@@ -1,11 +1,11 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-10-26T09:33:18.701Z",
+  "updated": "2026-11-02T11:55:10.883Z",
   "count": 47,
   "stats": {
     "works": 48,
-    "citations": 514,
+    "citations": 520,
     "h_index": 9,
     "i10_index": 9
   },
@@ -24,7 +24,7 @@
       "venue": "Environmental Pollution",
       "year": 2026,
       "url": "https://doi.org/10.1016/j.envpol.2026.129107",
-      "citations": 0
+      "citations": 1
     },
     {
       "title": "Tsunami loads on bridge bents: pier interaction and dynamic amplification",
@@ -36,8 +36,8 @@
     },
     {
       "title": "INSIGHTS INTO THE SETTLING AND INTERACTION BEHAVIOUR OF SPHERICAL MICROPLASTICS",
-      "authors": "Mohammadmehdi Ramezani, Siamak SEYFI, Camillo De Castro, Shooka Karimpour",
-      "venue": "",
+      "authors": "Mohammadmehdi Ramezani, Siamak Seyfi, Camillo De Castro, Shooka Karimpour",
+      "venue": "IAHR International Symposium on Ecohydraulics (ISE)",
       "year": 2026,
       "url": "https://doi.org/10.64697/iahr.proc.ise2026.abs.337",
       "citations": 0
@@ -56,7 +56,7 @@
       "venue": "Environmental Pollution",
       "year": 2026,
       "url": "https://doi.org/10.1016/j.envpol.2026.128053",
-      "citations": 3
+      "citations": 4
     },
     {
       "title": "Wake Dynamics of Spherical Microplastics under Quiescent Conditions: A Numerical Study",
@@ -192,7 +192,7 @@
       "venue": "Reviews of Environmental Contamination and Toxicology",
       "year": 2023,
       "url": "https://doi.org/10.1007/s44169-023-00035-z",
-      "citations": 89
+      "citations": 91
     },
     {
       "title": "Preservation, storage, and sample preparation methods for freshwater microplastics – a comprehensive review",
@@ -280,7 +280,7 @@
       "venue": "Frontiers in Marine Science",
       "year": 2021,
       "url": "https://doi.org/10.3389/fmars.2021.760649",
-      "citations": 167
+      "citations": 169
     },
     {
       "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
@@ -384,7 +384,7 @@
       "venue": "Journal of Hydraulic Engineering",
       "year": 2008,
       "url": "https://doi.org/10.1061/(asce)0733-9429(2008)134:2(205)",
-      "citations": 29
+      "citations": 28
     }
   ]
 }
