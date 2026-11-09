@@ -1,15 +1,23 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-11-02T11:55:10.883Z",
+  "updated": "2026-11-09T12:24:45.568Z",
   "count": 47,
   "stats": {
     "works": 48,
-    "citations": 520,
+    "citations": 560,
     "h_index": 9,
     "i10_index": 9
   },
   "items": [
+    {
+      "title": "Effects of block size and arrangement on downstream grid-generated turbulence structures in open-channel flow",
+      "authors": "Siamak Seyfi, Ram Balachandar, Shooka Karimpour",
+      "venue": "Physics of Fluids",
+      "year": 2026,
+      "url": "https://doi.org/10.1063/5.0341361",
+      "citations": 0
+    },
     {
       "title": "Seismic Fragility Assessment of Shallow‐Foundation‐Supported Bridge Piers Subjected to Surge Wave‐Induced Scour",
       "authors": "Seyed Mohammad Hadi Moosavian, Shooka Karimpour, S. J. Pantazopoulou",
@@ -144,7 +152,7 @@
       "venue": "Environmental Science Advances",
       "year": 2024,
       "url": "https://doi.org/10.1039/d4va00303a",
-      "citations": 8
+      "citations": 9
     },
     {
       "title": "Comparative analysis of hydrodynamic loads on bridge piers: assessing standards through numerical modeling",
@@ -152,7 +160,7 @@
       "venue": "Canadian Journal of Civil Engineering",
       "year": 2024,
       "url": "https://doi.org/10.1139/cjce-2024-0145",
-      "citations": 4
+      "citations": 5
     },
     {
       "title": "Simultaneous flow and particle measurements for multiphase flows in hydraulic engineering: A review and synthesis of current state",
@@ -160,15 +168,7 @@
       "venue": "Flow Measurement and Instrumentation",
       "year": 2024,
       "url": "https://doi.org/10.1016/j.flowmeasinst.2024.102666",
-      "citations": 10
-    },
-    {
-      "title": "Simultaneous Flow and Particle Velocity Measurements in Multiphase Flows with Applications in Hydraulic Engineering: A Review and Synthesis of Current State",
-      "authors": "Siamak Seyfi, Shooka Karimpour, Ram Balachandar",
-      "venue": "SSRN Electronic Journal",
-      "year": 2024,
-      "url": "https://doi.org/10.2139/ssrn.4789780",
-      "citations": 0
+      "citations": 11
     },
     {
       "title": "Microplastics Entrainment in Turbulent Flow: A Numerical Study on the Effect of Shape and Other Physical Particle Properties",
@@ -192,7 +192,7 @@
       "venue": "Reviews of Environmental Contamination and Toxicology",
       "year": 2023,
       "url": "https://doi.org/10.1007/s44169-023-00035-z",
-      "citations": 91
+      "citations": 102
     },
     {
       "title": "Preservation, storage, and sample preparation methods for freshwater microplastics – a comprehensive review",
@@ -200,7 +200,7 @@
       "venue": "Environmental Science Advances",
       "year": 2023,
       "url": "https://doi.org/10.1039/d3va00043e",
-      "citations": 40
+      "citations": 42
     },
     {
       "title": "Settling and Rising Hydrodynamics of Microplastic Pollutants: A Numerical Study",
@@ -232,7 +232,7 @@
       "venue": "Marine Pollution Bulletin",
       "year": 2022,
       "url": "https://doi.org/10.1016/j.marpolbul.2022.114160",
-      "citations": 64
+      "citations": 66
     },
     {
       "title": "The Role of Microplastics’ Size and Density on Their Vertical Turbulent Mixing and Transport",
@@ -280,7 +280,7 @@
       "venue": "Frontiers in Marine Science",
       "year": 2021,
       "url": "https://doi.org/10.3389/fmars.2021.760649",
-      "citations": 169
+      "citations": 189
     },
     {
       "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
@@ -304,7 +304,7 @@
       "venue": "The Science of The Total Environment",
       "year": 2020,
       "url": "https://doi.org/10.1016/j.scitotenv.2020.142063",
-      "citations": 13
+      "citations": 14
     },
     {
       "title": "The lateral mixing by waves in steep river channel",
@@ -336,7 +336,7 @@
       "venue": "Environmental Science & Technology",
       "year": 2018,
       "url": "https://doi.org/10.1021/acs.est.7b05207",
-      "citations": 26
+      "citations": 27
     },
     {
       "title": "A novel framework for a new generation of water consumption indicators in LCA and footprint studies",
@@ -384,7 +384,7 @@
       "venue": "Journal of Hydraulic Engineering",
       "year": 2008,
       "url": "https://doi.org/10.1061/(asce)0733-9429(2008)134:2(205)",
-      "citations": 28
+      "citations": 29
     }
   ]
 }
