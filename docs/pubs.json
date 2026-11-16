@@ -1,13 +1,13 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-11-09T12:24:45.568Z",
+  "updated": "2026-11-16T12:20:29.475Z",
   "count": 47,
   "stats": {
     "works": 48,
     "citations": 560,
-    "h_index": 9,
-    "i10_index": 9
+    "h_index": 10,
+    "i10_index": 10
   },
   "items": [
     {
@@ -83,6 +83,22 @@
       "citations": 0
     },
     {
+      "title": "Microplastic Particle Behavior in Turbulent Flows: Insights from Experimental Investigations",
+      "authors": "Siamak Seyfi, Ram Balachandar, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2025,
+      "url": "https://doi.org/10.1007/978-3-031-95107-7_14",
+      "citations": 0
+    },
+    {
+      "title": "Turbulence and Self-Similarity in Classical Hydraulic Jumps",
+      "authors": "Mohammadmehdi Ramezani, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2025,
+      "url": "https://doi.org/10.1007/978-3-031-95107-7_13",
+      "citations": 0
+    },
+    {
       "title": "Correction to “Seasonal and In-Depth Distribution of Anthropogenic Microparticles in Hamilton Harbour”",
       "authors": "Behnam Nayebi, Reza Valipour, David C. Depew, Rama Pulicharla, Satinder Kaur Brar, Shooka Karimpour",
       "venue": "ACS ES&T Water",
@@ -123,22 +139,6 @@
       "citations": 1
     },
     {
-      "title": "Microplastic Particle Behavior in Turbulent Flows: Insights from Experimental Investigations",
-      "authors": "Siamak Seyfi, Ram Balachandar, Shooka Karimpour",
-      "venue": "Lecture notes in civil engineering",
-      "year": 2025,
-      "url": "https://doi.org/10.1007/978-3-031-95107-7_14",
-      "citations": 0
-    },
-    {
-      "title": "Turbulence and Self-Similarity in Classical Hydraulic Jumps",
-      "authors": "Mohammadmehdi Ramezani, Shooka Karimpour",
-      "venue": "Lecture notes in civil engineering",
-      "year": 2025,
-      "url": "https://doi.org/10.1007/978-3-031-95107-7_13",
-      "citations": 0
-    },
-    {
       "title": "THE DYNAMIC IMPACT OF SURGE WAVES ON MULTI-COLUMN BRIDGE BENTS",
       "authors": "Seyed Mohammad Hadi Moosavian, Shooka Karimpour, S. J. Pantazopoulou",
       "venue": "COMPDYN Proceedings",
@@ -152,7 +152,7 @@
       "venue": "Environmental Science Advances",
       "year": 2024,
       "url": "https://doi.org/10.1039/d4va00303a",
-      "citations": 9
+      "citations": 10
     },
     {
       "title": "Comparative analysis of hydrodynamic loads on bridge piers: assessing standards through numerical modeling",
@@ -161,6 +161,14 @@
       "year": 2024,
       "url": "https://doi.org/10.1139/cjce-2024-0145",
       "citations": 5
+    },
+    {
+      "title": "Turbulent-Induced Transport of Microplastic Contaminants: A Numerical Study",
+      "authors": "Arefeh Shamskhany, Shooka Karimpour",
+      "venue": "Lecture notes in civil engineering",
+      "year": 2024,
+      "url": "https://doi.org/10.1007/978-3-031-61519-1_7",
+      "citations": 0
     },
     {
       "title": "Simultaneous flow and particle measurements for multiphase flows in hydraulic engineering: A review and synthesis of current state",
@@ -179,30 +187,6 @@
       "citations": 0
     },
     {
-      "title": "Turbulent-Induced Transport of Microplastic Contaminants: A Numerical Study",
-      "authors": "Arefeh Shamskhany, Shooka Karimpour",
-      "venue": "Lecture notes in civil engineering",
-      "year": 2024,
-      "url": "https://doi.org/10.1007/978-3-031-61519-1_7",
-      "citations": 0
-    },
-    {
-      "title": "Impacts of Biofilm Formation on the Physicochemical Properties and Toxicity of Microplastics: A Concise Review",
-      "authors": "Joshua Moyal, Preeti H. Dave, Mengjie Wu, Shooka Karimpour, Satinder Kaur Brar, Huan Zhong, Raymond W. M. Kwong",
-      "venue": "Reviews of Environmental Contamination and Toxicology",
-      "year": 2023,
-      "url": "https://doi.org/10.1007/s44169-023-00035-z",
-      "citations": 102
-    },
-    {
-      "title": "Preservation, storage, and sample preparation methods for freshwater microplastics – a comprehensive review",
-      "authors": "Behnam Nayebi, Pratishtha Khurana, Rama Pulicharla, Shooka Karimpour, Satinder Kaur Brar",
-      "venue": "Environmental Science Advances",
-      "year": 2023,
-      "url": "https://doi.org/10.1039/d3va00043e",
-      "citations": 42
-    },
-    {
       "title": "Settling and Rising Hydrodynamics of Microplastic Pollutants: A Numerical Study",
       "authors": "Zihe Zhao, Shooka Karimpour",
       "venue": "Lecture notes in civil engineering",
@@ -219,12 +203,28 @@
       "citations": 1
     },
     {
+      "title": "Impacts of Biofilm Formation on the Physicochemical Properties and Toxicity of Microplastics: A Concise Review",
+      "authors": "Joshua Moyal, Preeti H. Dave, Mengjie Wu, Shooka Karimpour, Satinder Kaur Brar, Huan Zhong, Raymond W. M. Kwong",
+      "venue": "Reviews of Environmental Contamination and Toxicology",
+      "year": 2023,
+      "url": "https://doi.org/10.1007/s44169-023-00035-z",
+      "citations": 103
+    },
+    {
+      "title": "Preservation, storage, and sample preparation methods for freshwater microplastics – a comprehensive review",
+      "authors": "Behnam Nayebi, Pratishtha Khurana, Rama Pulicharla, Shooka Karimpour, Satinder Kaur Brar",
+      "venue": "Environmental Science Advances",
+      "year": 2023,
+      "url": "https://doi.org/10.1039/d3va00043e",
+      "citations": 45
+    },
+    {
       "title": "Turbulent characteristics and anisotropy in breaking surge waves: A numerical study",
       "authors": "Akash Venkateshwaran, Zhuoran Li, Shooka Karimpour",
       "venue": "Physics of Fluids",
       "year": 2022,
       "url": "https://doi.org/10.1063/5.0130657",
-      "citations": 8
+      "citations": 7
     },
     {
       "title": "Entrainment and vertical mixing of aquatic microplastics in turbulent flow: The coupled role of particle size and density",
@@ -232,7 +232,7 @@
       "venue": "Marine Pollution Bulletin",
       "year": 2022,
       "url": "https://doi.org/10.1016/j.marpolbul.2022.114160",
-      "citations": 66
+      "citations": 67
     },
     {
       "title": "The Role of Microplastics’ Size and Density on Their Vertical Turbulent Mixing and Transport",
@@ -280,7 +280,7 @@
       "venue": "Frontiers in Marine Science",
       "year": 2021,
       "url": "https://doi.org/10.3389/fmars.2021.760649",
-      "citations": 189
+      "citations": 185
     },
     {
       "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
@@ -384,7 +384,7 @@
       "venue": "Journal of Hydraulic Engineering",
       "year": 2008,
       "url": "https://doi.org/10.1061/(asce)0733-9429(2008)134:2(205)",
-      "citations": 29
+      "citations": 28
     }
   ]
 }
