@@ -1,13 +1,13 @@
 {
   "source": "openalex",
   "author": "https://openalex.org/A5019943485",
-  "updated": "2026-11-16T12:20:29.475Z",
+  "updated": "2026-11-23T13:55:21.407Z",
   "count": 47,
   "stats": {
     "works": 48,
-    "citations": 560,
+    "citations": 660,
     "h_index": 10,
-    "i10_index": 10
+    "i10_index": 11
   },
   "items": [
     {
@@ -64,7 +64,7 @@
       "venue": "Environmental Pollution",
       "year": 2026,
       "url": "https://doi.org/10.1016/j.envpol.2026.128053",
-      "citations": 4
+      "citations": 6
     },
     {
       "title": "Wake Dynamics of Spherical Microplastics under Quiescent Conditions: A Numerical Study",
@@ -112,7 +112,7 @@
       "venue": "Microchimica Acta",
       "year": 2025,
       "url": "https://doi.org/10.1007/s00604-025-07335-2",
-      "citations": 12
+      "citations": 13
     },
     {
       "title": "Microfluidic Sensor for Microplastic Detection in Saline Freshwater: Enhancements by Wheatstone Bridge and MXene-Coated Electrodes",
@@ -120,7 +120,7 @@
       "venue": "International Conference on Solid-State Sensors, Actuators and Microsystems",
       "year": 2025,
       "url": "https://doi.org/10.1109/transducers61432.2025.11110378",
-      "citations": 2
+      "citations": 3
     },
     {
       "title": "Seasonal and In-Depth Distribution of Anthropogenic Microparticles in Hamilton Harbour",
@@ -139,6 +139,14 @@
       "citations": 1
     },
     {
+      "title": "Wastewater-induced microplastic biofouling in freshwater: role of particle size and flow velocity",
+      "authors": "Gaurav Bhardwaj, Malihe Mohammadiun, Carlos S. Osorio‐González, Satinder Kaur Brar, Shooka Karimpour",
+      "venue": "Environmental Science Advances",
+      "year": 2025,
+      "url": "https://doi.org/10.1039/d4va00303a",
+      "citations": 10
+    },
+    {
       "title": "THE DYNAMIC IMPACT OF SURGE WAVES ON MULTI-COLUMN BRIDGE BENTS",
       "authors": "Seyed Mohammad Hadi Moosavian, Shooka Karimpour, S. J. Pantazopoulou",
       "venue": "COMPDYN Proceedings",
@@ -147,20 +155,12 @@
       "citations": 0
     },
     {
-      "title": "Wastewater-induced microplastic biofouling in freshwater: role of particle size and flow velocity",
-      "authors": "Gaurav Bhardwaj, Malihe Mohammadiun, Carlos S. Osorio‐González, Satinder Kaur Brar, Shooka Karimpour",
-      "venue": "Environmental Science Advances",
-      "year": 2024,
-      "url": "https://doi.org/10.1039/d4va00303a",
-      "citations": 10
-    },
-    {
       "title": "Comparative analysis of hydrodynamic loads on bridge piers: assessing standards through numerical modeling",
       "authors": "Seyed Mohammad Hadi Moosavian, Shooka Karimpour, S. J. Pantazopoulou",
       "venue": "Canadian Journal of Civil Engineering",
       "year": 2024,
       "url": "https://doi.org/10.1139/cjce-2024-0145",
-      "citations": 5
+      "citations": 8
     },
     {
       "title": "Turbulent-Induced Transport of Microplastic Contaminants: A Numerical Study",
@@ -208,7 +208,7 @@
       "venue": "Reviews of Environmental Contamination and Toxicology",
       "year": 2023,
       "url": "https://doi.org/10.1007/s44169-023-00035-z",
-      "citations": 103
+      "citations": 154
     },
     {
       "title": "Preservation, storage, and sample preparation methods for freshwater microplastics – a comprehensive review",
@@ -216,13 +216,13 @@
       "venue": "Environmental Science Advances",
       "year": 2023,
       "url": "https://doi.org/10.1039/d3va00043e",
-      "citations": 45
+      "citations": 53
     },
     {
       "title": "Turbulent characteristics and anisotropy in breaking surge waves: A numerical study",
       "authors": "Akash Venkateshwaran, Zhuoran Li, Shooka Karimpour",
       "venue": "Physics of Fluids",
-      "year": 2022,
+      "year": 2023,
       "url": "https://doi.org/10.1063/5.0130657",
       "citations": 7
     },
@@ -232,7 +232,7 @@
       "venue": "Marine Pollution Bulletin",
       "year": 2022,
       "url": "https://doi.org/10.1016/j.marpolbul.2022.114160",
-      "citations": 67
+      "citations": 68
     },
     {
       "title": "The Role of Microplastics’ Size and Density on Their Vertical Turbulent Mixing and Transport",
@@ -240,7 +240,7 @@
       "venue": "Lecture notes in civil engineering",
       "year": 2022,
       "url": "https://doi.org/10.1007/978-981-19-1065-4_21",
-      "citations": 5
+      "citations": 6
     },
     {
       "title": "Numerical Investigation of Turbulent Structures and Air Entrainment in Positive Surge Waves",
@@ -280,7 +280,7 @@
       "venue": "Frontiers in Marine Science",
       "year": 2021,
       "url": "https://doi.org/10.3389/fmars.2021.760649",
-      "citations": 185
+      "citations": 203
     },
     {
       "title": "Turbulent Characteristics and Air Entrainment Patterns in Breaking Surge Waves",
@@ -288,7 +288,7 @@
       "venue": "Fluids",
       "year": 2021,
       "url": "https://doi.org/10.3390/fluids6120422",
-      "citations": 3
+      "citations": 4
     },
     {
       "title": "The exchanges between the mainstream in an open channel and a recirculating flow on its side at large Froude numbers",
@@ -296,7 +296,7 @@
       "venue": "Journal of Fluid Mechanics",
       "year": 2021,
       "url": "https://doi.org/10.1017/jfm.2021.418",
-      "citations": 8
+      "citations": 9
     },
     {
       "title": "Evaluation of sector-specific AWARE characterization factors for water scarcity footprint of electricity generation",
@@ -304,7 +304,7 @@
       "venue": "The Science of The Total Environment",
       "year": 2020,
       "url": "https://doi.org/10.1016/j.scitotenv.2020.142063",
-      "citations": 14
+      "citations": 16
     },
     {
       "title": "The lateral mixing by waves in steep river channel",
@@ -336,7 +336,7 @@
       "venue": "Environmental Science & Technology",
       "year": 2018,
       "url": "https://doi.org/10.1021/acs.est.7b05207",
-      "citations": 27
+      "citations": 29
     },
     {
       "title": "A novel framework for a new generation of water consumption indicators in LCA and footprint studies",
@@ -352,7 +352,7 @@
       "venue": "Canadian Journal of Civil Engineering",
       "year": 2016,
       "url": "https://doi.org/10.1139/cjce-2016-0018",
-      "citations": 4
+      "citations": 7
     },
     {
       "title": "High-order interpolation schemes for shear instability simulations",
@@ -360,7 +360,7 @@
       "venue": "International Journal of Numerical Methods for Heat &amp Fluid Flow",
       "year": 2015,
       "url": "https://doi.org/10.1108/hff-07-2014-0235",
-      "citations": 8
+      "citations": 12
     },
     {
       "title": "Microplastic Entrainment in Turbulent Flow: A Numerical Study",
@@ -384,7 +384,7 @@
       "venue": "Journal of Hydraulic Engineering",
       "year": 2008,
       "url": "https://doi.org/10.1061/(asce)0733-9429(2008)134:2(205)",
-      "citations": 28
+      "citations": 33
     }
   ]
 }
